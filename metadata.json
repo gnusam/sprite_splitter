@@ -1,0 +1,5 @@
+{
+  "name": "SpriteSplit AI",
+  "description": "Smartly splits sprite sheets into individual assets and uses Gemini Vision to automatically name them based on content.",
+  "requestFramePermissions": []
+}
