@@ -78,7 +78,7 @@ export const AssetCard: React.FC<AssetCardProps> = ({ asset, onRename, onDownloa
 
         <div className="flex items-center justify-between mt-auto pt-2 border-t border-gray-700">
            <span className="text-xs text-gray-500 font-mono">
-             {Math.round(asset.box.width)}x{Math.round(asset.box.height)}px
+             {asset.outputWidth}x{asset.outputHeight}px
            </span>
            
            <button 
